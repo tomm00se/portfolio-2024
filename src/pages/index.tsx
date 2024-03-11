@@ -7,6 +7,7 @@ import beepBoopPixelArt from "../../public/beepboop.svg";
 import HeroText from "@/components/herotext/HeroText";
 import Grid from "@mui/material/Grid";
 import Container from "@/components/container/Container";
+import Footer from "@/components/footer/Footer";
 
 const index = () => {
   return (
@@ -28,6 +29,7 @@ const index = () => {
           </Grid>
         </Grid>
       </Container>
+      <Footer />
     </>
   );
 };

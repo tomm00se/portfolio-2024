@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import Container from "@/components/container/Container";
 import person from "../../public/person.svg";
 import Paragraph from "@/components/paragraph/Paragraph";
+import Footer from "@/components/footer/Footer";
 
 const index = () => {
   return (
@@ -27,6 +28,7 @@ const index = () => {
           </Grid>
         </Grid>
       </Container>
+      <Footer />
     </>
   );
 };
