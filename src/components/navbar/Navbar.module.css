@@ -1,7 +1,5 @@
-.navbar__container {
+.navbar__inner {
   display: flex;
   border-bottom: 2px solid #000000;
-  min-height: 100px;
-  max-width: 90%;
-  margin: auto;
+  width: 100%;
 }
