@@ -1,0 +1,7 @@
+.header__text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #000000;
+  font-size: 48px;
+}
