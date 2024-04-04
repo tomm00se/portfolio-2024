@@ -18,10 +18,10 @@ const index = () => {
             <Hero image={computerPixelArt} />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <HeroText heroText="Graduate Software Engineer @ xDesign" />
+            <HeroText heroText="Software Engineer @ xDesign" />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <HeroText heroText="About, Contact and Code coming soon" />
+            <HeroText heroText="Content coming soon" />
           </Grid>
           <Grid item xs={12} sm={6}>
             <Hero image={beepBoopPixelArt} />
