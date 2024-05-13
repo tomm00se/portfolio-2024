@@ -11,7 +11,7 @@ const Navbar = () => {
         <Header />
         <Button text="About" />
         <Button text="Contact" />
-        <Button text="Code" />
+        <Button text="CV" />
       </div>
     </Container>
   );
