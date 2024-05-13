@@ -20,7 +20,7 @@ const index = () => {
             <Paragraph paragraphText="Are you interested in what I've been up to? Download my CV from here" />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <DownloadPdf link="egg" />
+            <DownloadPdf />
           </Grid>
         </Grid>
       </Container>

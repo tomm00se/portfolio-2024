@@ -1,3 +1,3 @@
 export interface IDownloadPdfProps {
-  link: string;
+  link?: string;
 }

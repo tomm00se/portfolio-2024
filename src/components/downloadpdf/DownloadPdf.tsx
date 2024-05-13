@@ -1,11 +1,11 @@
 import React from "react";
 import Styles from "./DownloadPdf.module.scss";
 import Container from "../container/Container";
-import { IDownloadPdfProps } from "./DownloadPdf.types";
+
 import Image from "next/image";
 import download from "../../../public/download.svg";
 
-const DownloadPdf = ({ link }: IDownloadPdfProps) => {
+const DownloadPdf = () => {
   return (
     <Container className={Styles["downloadPdf__container"]}>
       <a
@@ -13,7 +13,7 @@ const DownloadPdf = ({ link }: IDownloadPdfProps) => {
         href="/CV_TomMoose.pdf"
         download="CV_TomMoose.pdf"
       >
-        <Image src={download} alt="download icon" height={300} width={300} />
+        <Image src={download} alt="download icon" height={400} width={400} />
       </a>
     </Container>
   );
