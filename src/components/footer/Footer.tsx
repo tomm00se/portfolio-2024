@@ -16,7 +16,7 @@ const Footer = () => {
             url="https://www.linkedin.com/in/tommybowden/"
           />
           <Button text="Instagram" url="https://www.instagram.com/tommoose_/" />
-          <Button text="GitHub" url="https://github.com/Mooose17" />
+          <Button text="GitHub" url="https://github.com/tomm00se" />
           <p className={Styles["footer__copyright"]}>
             Tommy Bowden 2024
             <span className={Styles["footer__copyright--red"]}>©</span>
