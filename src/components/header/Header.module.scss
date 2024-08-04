@@ -16,3 +16,9 @@
     font-size: 48px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .header__text{
+    background-color: blue;
+  }
+}

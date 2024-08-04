@@ -10,8 +10,8 @@ const DownloadPdf = () => {
     <Container className={Styles["downloadPdf__container"]}>
       <a
         className={Styles["downloadPdf__link"]}
-        href="/CV_TomMoose.pdf"
-        download="CV_TomMoose.pdf"
+        href="/CV-AUG-24.pdf"
+        download="CV-AUG-24.pdf"
       >
         <Image src={download} alt="download icon" height={400} width={400} />
       </a>

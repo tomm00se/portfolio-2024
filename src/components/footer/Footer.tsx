@@ -17,6 +17,10 @@ const Footer = () => {
           />
           <Button text="Instagram" url="https://www.instagram.com/tommoose_/" />
           <Button text="GitHub" url="https://github.com/tomm00se" />
+          <Button
+            text="Microsoft"
+            url="https://learn.microsoft.com/en-us/users/tommoose/"
+          />
           <p className={Styles["footer__copyright"]}>
             Tommy Bowden 2024
             <span className={Styles["footer__copyright--red"]}>©</span>
