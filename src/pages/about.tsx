@@ -21,7 +21,7 @@ const index = () => {
             <Hero image={person} />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Paragraph paragraphText="My name is Tommy Bowden and I am a software engineer at xDesign. I go by Tommy, Tom or Moose. My pronouns are He/Him/They/Them. I career switched into software engineering after graduating university in 2022" />
+            <Paragraph paragraphText="My name is Tommy Bowden and I am a software engineer at CreateFuture. I go by Tommy, Tom or Moose. My pronouns are He/Him/They/Them. I career switched into software engineering after graduating university in 2022" />
           </Grid>
         </Grid>
       </Container>
