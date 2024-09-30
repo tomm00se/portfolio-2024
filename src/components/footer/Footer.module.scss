@@ -18,3 +18,9 @@
         color:red;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .footer__inner{
+      align-items: center;
+    }
+  }

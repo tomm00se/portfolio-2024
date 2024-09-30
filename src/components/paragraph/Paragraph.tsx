@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "./Paragraph.module.scss";
 import { IParagraphProps } from "./Paragraph.types";
+import classNames from "classnames";
 
 const Paragraph = ({ paragraphText }: IParagraphProps) => {
   return (

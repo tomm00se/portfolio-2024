@@ -9,9 +9,11 @@ const Navbar = () => {
     <Container>
       <div className={Styles["navbar__inner"]}>
         <Header />
-        <Button text="About" />
-        <Button text="Contact" />
-        <Button text="CV" />
+        <div className={Styles["navbar__links"]}>
+          <Button text="Pieces" />
+          <Button text="About" />
+          <Button text="Contact" />
+        </div>
       </div>
     </Container>
   );

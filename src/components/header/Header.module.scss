@@ -17,8 +17,8 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .header__text{
-    background-color: blue;
+    justify-content: center;
   }
 }

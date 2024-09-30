@@ -1,32 +1,23 @@
 import React from "react";
 import Navbar from "@/components/navbar/Navbar";
-import Hero from "@/components/hero/Hero";
-import computerPixelArt from "../../public/hero.svg";
-import beepBoopPixelArt from "../../public/beepboop.svg";
-import HeroText from "@/components/herotext/HeroText";
-import Grid from "@mui/material/Grid";
 import Container from "@/components/container/Container";
 import Footer from "@/components/footer/Footer";
+import Styles from "@/pages/index.module.scss";
 
 const index = () => {
   return (
     <>
       <Navbar />
       <Container>
-        <Grid container>
-          <Grid item xs={12} sm={6}>
-            <Hero image={computerPixelArt} />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <HeroText heroText="Software Engineer @ CreateFuture" />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <HeroText heroText="Content coming soon" />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Hero image={beepBoopPixelArt} />
-          </Grid>
-        </Grid>
+        <div className={Styles["index_title"]}>
+          Computer Science MSc Student{" "}
+          <span className={Styles["index_symbol_red"]}> @ </span> University Of
+          Liverpool
+        </div>
+        <div className={Styles["index_title"]}>
+          Software Engineer{" "}
+          <span className={Styles["index_symbol_red"]}> @ </span> CreateFuture
+        </div>
       </Container>
       <Footer />
     </>

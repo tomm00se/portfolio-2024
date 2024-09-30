@@ -3,3 +3,15 @@
   border-bottom: 2px solid #000000;
   width: 100%;
 }
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar__inner {
+    flex-direction: column;
+  }
+}
