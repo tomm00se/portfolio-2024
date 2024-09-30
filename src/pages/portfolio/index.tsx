@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import Styles from "@/pages/pieces/pieces.module.scss";
+import Styles from "@/pages/portfolio/portfolio.module.scss";
 import Container from "@/components/container/Container";
 
 const index = () => {
@@ -9,18 +9,18 @@ const index = () => {
     <>
       <Navbar />
       <Container>
-        <p className={Styles["pieces_title"]}>
-          Pieces<span className={Styles["pieces_symbol_red"]}> . </span>
+        <p className={Styles["portfolio_title"]}>
+          Portfolio<span className={Styles["portfolio_symbol_red"]}> . </span>
         </p>
         <a
           href="https://github.com/tomm00se/PokedexApp"
           target="_blank"
-          className={Styles["pieces_subtitle"]}
+          className={Styles["portfolio_subtitle"]}
         >
           🔗 Pokèdex React Native App ➡ Github
         </a>
         <a
-          className={Styles["pieces_subtitle"]}
+          className={Styles["portfolio_subtitle"]}
           href="https://github.com/tomm00se/PokedexApp"
           target="_blank"
         >

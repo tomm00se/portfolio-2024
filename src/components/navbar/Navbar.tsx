@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={Styles["navbar__inner"]}>
         <Header />
         <div className={Styles["navbar__links"]}>
-          <Button text="Pieces" />
+          <Button text="Portfolio" />
           <Button text="About" />
           <Button text="Contact" />
         </div>
