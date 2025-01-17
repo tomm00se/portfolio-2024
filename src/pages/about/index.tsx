@@ -18,6 +18,16 @@ const index = () => {
           studying my Masters in Computer Science at the University Of
           Liverpool.
         </p>
+        <p className={Styles["about_subtitle"]}>
+          I am currently working on a project for an investment company, abrdn.
+          As a FE SWE, I am delivering code to make processes at abrdn run more
+          intuitively and smoother.
+        </p>
+        <p className={Styles["about_subtitle"]}>
+          Academically, I am currently studying the &#39; Software engineering
+          in Practice&#39; module at the University Of Liverpool, a module that
+          has already assisted with my work at CreateFuture.
+        </p>
       </Container>
       <Footer />
     </>
